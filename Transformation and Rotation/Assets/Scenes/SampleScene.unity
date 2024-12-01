@@ -625,7 +625,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1394565466}
   - component: {fileID: 1394565465}
-  - component: {fileID: 1394565464}
+  - component: {fileID: 1394565467}
   m_Layer: 0
   m_Name: Turet
   m_TagString: Untagged
@@ -633,18 +633,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1394565464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394565463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d9ee2619a740644c822b1d602782cc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1394565465
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -716,6 +704,19 @@ Transform:
   - {fileID: 880749920}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394565467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394565463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319b1d8916b553440903b853bf59da84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 771464526}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
